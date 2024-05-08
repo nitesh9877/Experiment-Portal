@@ -7,6 +7,7 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Home from './pages/Home';
 import SecondCounter from './components/SecondCounter';
 import ThirdCounter from './components/ThirdCounter';
+import Crudoperation from './pages/Crudoperation';
 
 function App() {
   return (
@@ -19,6 +20,8 @@ function App() {
         <Route path="/counter" element={<Counter />} />
         <Route path="/secondcounter" element={<SecondCounter />} />
         <Route path="/thirdcounter" element={<ThirdCounter />} />
+        <Route path="/crudoperation" element={<Crudoperation />} />
+
       </Routes>
     </Router>
   </MyContextProvider>
