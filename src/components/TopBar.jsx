@@ -17,6 +17,7 @@ const TopBar = () => {
             <NavDropdown.Item as={Link} to="/counter">Counter</NavDropdown.Item>
             <NavDropdown.Item as={Link} to ="/secondcounter">Second Counter</NavDropdown.Item>
             <NavDropdown.Item as={Link} to ="/thirdcounter">Third Counter</NavDropdown.Item>
+            <NavDropdown.Item as={Link} to ="/fourthcounter">Fourth Counter</NavDropdown.Item>
             <NavDropdown.Item href="#home">Something else</NavDropdown.Item>
           </NavDropdown>
 
