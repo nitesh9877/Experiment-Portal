@@ -27,8 +27,8 @@ const TopBar = () => {
 
         </Nav>
         <Nav.Link > First:{count}</Nav.Link>&nbsp;
-        <Nav.Link >Second:{secondcount}</Nav.Link>
-        <Nav.Link >third:{thirdcounter}</Nav.Link>
+        <Nav.Link >Second:{secondcount}</Nav.Link>&nbsp;
+        <Nav.Link >third:{thirdcounter}</Nav.Link>&nbsp;
         <Button variant="outline-dark">Login</Button>
       </Container>
     </Navbar>
